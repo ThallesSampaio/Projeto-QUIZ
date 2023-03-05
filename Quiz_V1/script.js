@@ -82,7 +82,7 @@ function start() {
 
         var r1p2 = document.createElement('p')
         r1p2.setAttribute('class', 'resposta')
-        r1p2.textContent = `(A) 750`
+        r1p2.textContent = `(A) 7500`
         question.appendChild(r1p2)
         r1p2.addEventListener('click', fr1p2); function fr1p2() {
             nota++
